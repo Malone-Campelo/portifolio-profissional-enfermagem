@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+    background: url('img/WhatsApp\ Image\ 2024-06-15\ at\ 23.22.03.jpeg') no-repeat center top fixed; 
+    background-size: cover;
+    background-attachment: scroll;
+    text-shadow: 2px 3px 4px rgba(5, 3, 2, 5);
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    text-align: left; 
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: "Rubik";
+}
+
+nav ul {
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ff08;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px; 
+    min-height: 100vh; 
+    box-sizing: border-box;
+    text-align: left; 
+    font-family: "Secular One";
+}
+
+section .content, section .formacoes {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding-left: 20px; 
+}
+
+section h2 {
+    border-bottom: 2px solid #00ff08;
+    padding-bottom: 0.5rem;
+    text-align: left; 
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    text-align: left; 
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #948e8e;
+    border-radius: 4px;
+}
+
+form button {
+    background: #0022ff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #00ff0d;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+        color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contacts {
+    padding: 10px 5px;
+    font-size: 25px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}

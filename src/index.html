@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Enfermagem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#formacao">Formações</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <h2>Sobre</h2>
+            <p>
+                Muito prazer, me chamo, Ceiça Morais, tenho 26 anos. Sou Graduada em Enfermagem no estado do Piauí desde 2023.
+            </p>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <div class="formacoes">
+            <h2>Formações Acadêmicas</h2>
+            <ul>
+                <li><strong>Estácio</strong> - Bacharelado em Enfermagem.</li>
+                <li><strong>Faculdade Líbano</strong> Pós-Graduação em Urgência e Emergência.</li>
+                <li><strong>Faculdade Líbano</strong> Pós-Graduação em Auditoria Médica.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contato</h2>
+            <div class="contacts">
+                <a href="https://www.facebook.com/ceiica.moraiiz.9?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/enf.ceicamorais?igsh=MTM3YjJxY3N0Z243ag%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/cei%C3%A7a-morais-09b322287"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Site criado por</p>
+        <p>&copy; Desenvolvedor Full stack - Malone Campelo</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

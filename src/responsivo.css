@@ -1,0 +1,154 @@
+@media (max-width: 789px) {
+    main::after {
+        background: linear-gradient(0deg, #000 20px, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    }
+
+    body {
+        font-family: "Rubik";
+        margin: 0;
+        padding: 0;
+        color: white;
+        line-height: 1.6;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('img/WhatsApp\ Image\ 2024-06-15\ at\ 23.22.03.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        text-shadow: 2px 2px 4px rgba(5, 1, 1, 5);
+        overflow-x: hidden;
+    }
+
+    header {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 50px 5px;
+        margin-top: 50px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    section .formacao {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    section h2 {
+        border-bottom: 2px solid #00ff08;
+        padding-bottom: 0.5rem;
+    }
+
+    form label {
+        display: block;
+        margin: 0.5rem 0 0.2rem;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    form button {
+        background: #00ff08;
+        color: white;
+        border: none;
+        padding: 0.7rem 1.5rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    form button:hover {
+        background: #45a049;
+    }
+
+    footer {
+        background: rgba(0, 0, 0, 0.7); 
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        padding: 10px;
+    }
+
+    .menu-toggle .bar {
+        height: 3px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .nav-list li {
+        margin: 0 15px;
+    }
+
+    @media (max-width: 789px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+}
+}
