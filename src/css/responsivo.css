@@ -11,7 +11,7 @@
         color: white;
         line-height: 1.6;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('img/WhatsApp\ Image\ 2024-06-15\ at\ 23.22.03.jpeg') no-repeat center center fixed;
+        url('../img/imagem.jpeg') no-repeat center center fixed;
         background-size: cover;
         text-shadow: 2px 2px 4px rgba(5, 1, 1, 5);
         overflow-x: hidden;
